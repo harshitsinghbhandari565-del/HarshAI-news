@@ -104,6 +104,7 @@ export default async function HomePage() {
       <footer style={{padding:'24px 20px',borderTop:'1px solid #1a1a35',display:'flex',justifyContent:'space-between',alignItems:'center',flexWrap:'wrap',gap:10}}>
         <span style={{fontWeight:800,fontSize:16,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}}>NEXUS AI</span>
         <span style={{fontSize:11,color:'#555588'}}>🇮🇳 Made in India · 🌍 For the World</span>
+        <a href="/terms" style={{color:'#555588',textDecoration:'none',fontSize:11}}>Terms of Use</a>
         <div style={{display:'flex',alignItems:'center',gap:6}}>
           <div style={{width:6,height:6,borderRadius:'50%',background:'#00ff88'}}/>
           <span style={{fontSize:11,color:'#00ff88'}}>Live</span>
