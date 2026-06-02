@@ -41,7 +41,7 @@ async function parseFeed(url: string, name: string) {
       const isIndia = ['india','indian','bangalore','bengaluru','mumbai','delhi','hyderabad','iit','nasscom','krutrim','sarvam','infosys','tcs','wipro','reliance'].some(k => txt.includes(k))
       const isModel = ['gpt','claude','gemini','llama','grok','mistral','openai','anthropic','deepmind','meta ai','copilot'].some(k => txt.includes(k))
       return {
-        id: Math.abs([...link].reduce((h,c) => (h<<5)-h+c.charCodeAt(0), 0)).toString(36),
+        id: Math.abs(link.split('').reduce((h,c) => (h<<5)-h+c.charCodeAt(0), 0)).toString(36),
         title, url: link, sourceName: name,
         summary: desc.substring(0, 250),
         publishedAt: pub ? new Date(pub).toISOString() : new Date().toISOString(),
