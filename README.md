@@ -1,2 +1,1 @@
-# Nexus-AI-news.  
-#Ho ja
+# Deployed via NEXUS AI
