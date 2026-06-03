@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'NEXUS AI — Real-Time AI News',
+  title: 'HARSH AI — Real-Time AI News',
   description: 'Top AI model news, global AI breakthroughs, and India AI news — real-time, AI-summarized.',
   keywords: ['AI news', 'artificial intelligence news', 'AI news India', 'LLM news'],
   openGraph: {
-    title: 'NEXUS AI — Real-Time AI News Global & India',
+    title: 'HARSH AI — Real-Time AI News Global & India',
     description: 'Real-time AI news platform with AI summaries.',
     type: 'website',
   },
