@@ -20,7 +20,7 @@ const FEEDS = [
 async function parseFeed(url: string, name: string) {
   try {
     const res = await fetch(url, {
-      headers: { 'User-Agent': 'NEXUS-AI-Bot/1.0' },
+      headers: { 'User-Agent': 'HARSH-AI-Bot/1.0' },
       signal: AbortSignal.timeout(6000),
     })
     if (!res.ok) return []
