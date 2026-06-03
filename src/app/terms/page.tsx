@@ -4,7 +4,7 @@ export default function TermsPage() {
 
       {/* HEADER */}
       <header style={{background:'rgba(5,5,8,0.97)',borderBottom:'1px solid #1a1a35',padding:'14px 20px',display:'flex',alignItems:'center',gap:'12px',position:'sticky',top:0,zIndex:99}}>
-        <div style={{width:36,height:36,borderRadius:9,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',display:'flex',alignItems:'center',justifyContent:'center',fontSize:18}}>🧠</div>
+        <div style={{width:36,height:36,borderRadius:9,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',display:'flex',alignItems:'center',justifyContent:'center',fontSize:18}}>🚀</div>
         <div>
           <div style={{fontFamily:'sans-serif',fontWeight:800,fontSize:18,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}}>HARSH AI</div>
           <div style={{fontSize:10,color:'#555588',letterSpacing:'0.1em'}}>REAL-TIME AI NEWS</div>
@@ -78,7 +78,7 @@ We display only:
 
 We do NOT reproduce full articles, copy entire content, or claim ownership of any third-party content. All intellectual property rights remain with the original publishers.
 
-If you are a content owner and wish to have your content removed, please contact us at legal@nexusai.news and we will remove it within 48 hours.`
+If you are a content owner and wish to have your content removed, please contact us at legal@harshai.news and we will remove it within 48 hours.`
           },
           {
             num:'03',
