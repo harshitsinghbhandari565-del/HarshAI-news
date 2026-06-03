@@ -19,7 +19,7 @@ export default async function HomePage() {
       <header style={{background:'rgba(5,5,8,0.97)',borderBottom:'1px solid #1a1a35',padding:'14px 20px',display:'flex',alignItems:'center',gap:'12px',position:'sticky',top:0,zIndex:99}}>
         <div style={{width:36,height:36,borderRadius:9,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',display:'flex',alignItems:'center',justifyContent:'center',fontSize:18}}>🧠</div>
         <div>
-          <div style={{fontFamily:'sans-serif',fontWeight:800,fontSize:18,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}}>NEXUS AI</div>
+          <div style={{fontFamily:'sans-serif',fontWeight:800,fontSize:18,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}}>HARSH AI</div>
           <div style={{fontSize:10,color:'#555588',letterSpacing:'0.1em'}}>REAL-TIME AI NEWS</div>
         </div>
         <a href="#india" style={{marginLeft:'auto',padding:'7px 14px',borderRadius:8,border:'1px solid rgba(255,153,51,0.3)',color:'#ff9933',fontSize:12,fontWeight:700,textDecoration:'none'}}>🇮🇳 India</a>
@@ -38,7 +38,7 @@ export default async function HomePage() {
           Aggregated from <strong style={{color:'#e8e8ff'}}>50+ sources</strong> · AI-summarized · Global + India coverage
         </p>
         <div style={{display:'flex',gap:10,justifyContent:'center',flexWrap:'wrap'}}>
-          <a href="#models" style={{padding:'11px 20px',borderRadius:10,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',color:'white',fontWeight:700,fontSize:14,textDecoration:'none'}}>🧠 AI Models</a>
+          <a href="#models" style={{padding:'11px 20px',borderRadius:10,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',color:'white',fontWeight:700,fontSize:14,textDecoration:'none'}}>🚀 AI Models</a>
           <a href="#global" style={{padding:'11px 20px',borderRadius:10,border:'1px solid rgba(123,47,255,0.3)',color:'#a855f7',fontWeight:700,fontSize:14,textDecoration:'none'}}>🌍 Global</a>
           <a href="#india" style={{padding:'11px 20px',borderRadius:10,border:'1px solid rgba(255,153,51,0.3)',color:'#ff9933',fontWeight:700,fontSize:14,textDecoration:'none'}}>🇮🇳 India</a>
         </div>
@@ -46,7 +46,7 @@ export default async function HomePage() {
 
       {/* AI MODELS */}
       <section id="models" style={{padding:'48px 20px',maxWidth:1200,margin:'0 auto'}}>
-        <SectionHeader icon="🧠" label="Section 01 · AI Models & Agencies" color="#00d4ff"
+        <SectionHeader icon="🚀" label="Section 01 · AI Models & Agencies" color="#00d4ff"
           title={<>Top 5 AI Model & <Grad c1="#00d4ff" c2="#7b2fff">Agency News</Grad></>} />
         <Grid>
           {models.length > 0
@@ -102,8 +102,8 @@ export default async function HomePage() {
 
       {/* FOOTER */}
       <footer style={{padding:'24px 20px',borderTop:'1px solid #1a1a35',display:'flex',justifyContent:'space-between',alignItems:'center',flexWrap:'wrap',gap:10}}>
-        <span style={{fontWeight:800,fontSize:16,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}}>NEXUS AI</span>
-        <span style={{fontSize:11,color:'#555588'}}>🇮🇳 Made in India · 🌍 For the World</span>
+        <span style={{fontWeight:800,fontSize:16,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}}>HARSH AI</span>
+        <span style={{fontSize:11,color:'#555588'}}>🇮🇳 Made in India · 🌍 For the World HARSH AI </span>
         <a href="/terms" style={{color:'#555588',textDecoration:'none',fontSize:11}}>Terms of Use</a>
         <div style={{display:'flex',alignItems:'center',gap:6}}>
           <div style={{width:6,height:6,borderRadius:'50%',background:'#00ff88'}}/>
