@@ -6,7 +6,7 @@ export default function TermsPage() {
       <header style={{background:'rgba(5,5,8,0.97)',borderBottom:'1px solid #1a1a35',padding:'14px 20px',display:'flex',alignItems:'center',gap:'12px',position:'sticky',top:0,zIndex:99}}>
         <div style={{width:36,height:36,borderRadius:9,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',display:'flex',alignItems:'center',justifyContent:'center',fontSize:18}}>🧠</div>
         <div>
-          <div style={{fontFamily:'sans-serif',fontWeight:800,fontSize:18,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}}>NEXUS AI</div>
+          <div style={{fontFamily:'sans-serif',fontWeight:800,fontSize:18,background:'linear-gradient(135deg,#00d4ff,#7b2fff)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}}>HARSH AI</div>
           <div style={{fontSize:10,color:'#555588',letterSpacing:'0.1em'}}>REAL-TIME AI NEWS</div>
         </div>
         <a href="/" style={{marginLeft:'auto',padding:'7px 14px',borderRadius:8,border:'1px solid rgba(0,212,255,0.25)',color:'#00d4ff',fontSize:12,fontWeight:700,textDecoration:'none'}}>← Back to News</a>
@@ -54,17 +54,17 @@ export default function TermsPage() {
         {[
           {
             num:'01',
-            title:'About NEXUS AI',
+            title:'About HARSH AI',
             color:'#00d4ff',
-            content:`NEXUS AI is a free AI news aggregation platform that collects, organizes, and displays publicly available news headlines and summaries from across the internet. We cover global AI news and India-specific AI developments in real time.
+            content:`HARSH AI is a free AI news aggregation platform that collects, organizes, and displays publicly available news headlines and summaries from across the internet. We cover global AI news and India-specific AI developments in real time.
 
-NEXUS AI is operated as a personal/startup project. Our platform is designed to help readers discover AI news faster — we do not create original journalism.`
+HARSH AI is operated as a personal/startup project. Our platform is designed to help readers discover AI news faster — we do not create original journalism.`
           },
           {
             num:'02',
             title:'Content & Copyright',
             color:'#7b2fff',
-            content:`All news content displayed on NEXUS AI belongs to its respective original publishers and authors. NEXUS AI aggregates content through:
+            content:`All news content displayed on HARSH AI belongs to its respective original publishers and authors. HARSH AI aggregates content through:
 
 • Publicly available RSS feeds provided by publishers
 • Google News RSS aggregation (publicly accessible)
@@ -86,7 +86,7 @@ If you are a content owner and wish to have your content removed, please contact
             color:'#00ff88',
             content:`RSS (Really Simple Syndication) feeds are specifically designed and published by content creators to allow content distribution and aggregation. By publishing an RSS feed, content providers explicitly grant permission for their headlines and summaries to be displayed on aggregator platforms.
 
-NEXUS AI operates in the same manner as widely accepted aggregators including Google News, Apple News, Feedly, and Flipboard — all of which display RSS feed content legally and ethically.
+HARSH AI operates in the same manner as widely accepted aggregators including Google News, Apple News, Feedly, and Flipboard — all of which display RSS feed content legally and ethically.
 
 Our aggregation:
 • Drives traffic back to original publishers
@@ -99,20 +99,20 @@ Our aggregation:
             num:'04',
             title:'AI-Generated Summaries',
             color:'#ffd700',
-            content:`NEXUS AI uses artificial intelligence (powered by Groq and Google Gemini APIs) to generate short summaries of news articles. These summaries are:
+            content:`HARSH AI uses artificial intelligence (powered by Groq and Google Gemini APIs) to generate short summaries of news articles. These summaries are:
 
 • Created automatically from publicly available article snippets
 • Intended for informational purposes only
 • Not a substitute for reading the full original article
 • Potentially imperfect — AI can make errors
 
-We recommend always reading the full original article by clicking the source link. NEXUS AI is not responsible for inaccuracies in AI-generated summaries.`
+We recommend always reading the full original article by clicking the source link. HARSH AI is not responsible for inaccuracies in AI-generated summaries.`
           },
           {
             num:'05',
             title:'User Conduct',
             color:'#ff9933',
-            content:`By using NEXUS AI, you agree to:
+            content:`By using HARSH AI, you agree to:
 
 • Use the platform for lawful purposes only
 • Not attempt to scrape, copy, or reproduce content in bulk
@@ -126,10 +126,10 @@ We reserve the right to block access to users who violate these terms.`
             num:'06',
             title:'Privacy & Data',
             color:'#ff3366',
-            content:`NEXUS AI respects your privacy:
+            content:`HARSH AI respects your privacy:
 
 • We do NOT sell your personal data to anyone
-• Newsletter email addresses are stored securely and used only to send the NEXUS AI digest
+• Newsletter email addresses are stored securely and used only to send the HARSH AI digest
 • We use anonymous analytics (Vercel Analytics) to understand site traffic — no personal data is collected
 • We use cookies only for essential site functionality
 • You can unsubscribe from our newsletter at any time with one click
@@ -140,15 +140,15 @@ For full details, see our Privacy Policy.`
             num:'07',
             title:'Disclaimer',
             color:'#a855f7',
-            content:`NEXUS AI is provided "as is" without any warranties. We do not guarantee:
+            content:`HARSH AI is provided "as is" without any warranties. We do not guarantee:
 
 • The accuracy, completeness, or timeliness of any news content
 • Uninterrupted availability of the service
 • That AI-generated summaries are error-free
 
-News content is the responsibility of the original publishers. NEXUS AI is not liable for any decisions made based on content displayed on our platform.
+News content is the responsibility of the original publishers. HARSH AI is not liable for any decisions made based on content displayed on our platform.
 
-The views expressed in aggregated articles belong to their original authors and do not represent the views of NEXUS AI.`
+The views expressed in aggregated articles belong to their original authors and do not represent the views of HARSH AI.`
           },
           {
             num:'08',
@@ -156,7 +156,7 @@ The views expressed in aggregated articles belong to their original authors and 
             color:'#00d4ff',
             content:`We may update these Terms of Use from time to time. When we do, we will update the "Last updated" date at the top of this page.
 
-Continued use of NEXUS AI after changes are posted constitutes your acceptance of the updated terms.`
+Continued use of HARSH AI after changes are posted constitutes your acceptance of the updated terms.`
           },
           {
             num:'09',
