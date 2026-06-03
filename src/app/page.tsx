@@ -5,7 +5,7 @@ export default async function HomePage() {
   let data: any = { sections: {} }
   
   try {
-    const res = await fetch('/api/news', { 
+    const res = await fetch('https://harshai.vercel.app/api/news', { 
       cache: 'no-store'
     })
     if (res.ok) {
