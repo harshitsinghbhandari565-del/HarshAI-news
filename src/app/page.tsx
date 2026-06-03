@@ -1,12 +1,20 @@
 export const dynamic = 'force-dynamic'
 
-export default async function HomePage() {
-  let data: any = { sections: {} }
+async function getNews() {
   try {
-    const base = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
-    const res = await fetch(`${base}/api/news`, { cache: 'no-store' })
-    if (res.ok) data = await res.json()
-  } catch {}
+    const res = await fetch('https://harshai.vercel.app/api/news', {
+      cache: 'no-store',
+      next: { revalidate: 1800 }
+    })
+    if (res.ok) return await res.json()
+  } catch (e) {
+    console.error('News fetch failed:', e)
+  }
+  return { sections: {} }
+}
+
+export default async function HomePage() {
+  let data: any = await getNews()
 
   const models = data?.sections?.top_models || []
   const global = data?.sections?.global_top10 || []
