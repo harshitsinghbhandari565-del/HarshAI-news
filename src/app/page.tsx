@@ -1,13 +1,19 @@
 export const dynamic = 'force-dynamic'
+export const revalidate = 0
 
-async function getNews() {
+export default async function HomePage() {
+  let data: any = { sections: {} }
+  
   try {
-    const res = await fetch('https://harshai.vercel.app/api/news', {
-      cache: 'no-store',
-      next: { revalidate: 1800 }
+    const res = await fetch('/api/news', { 
+      cache: 'no-store'
     })
-    if (res.ok) return await res.json()
+    if (res.ok) {
+      data = await res.json()
+    }
   } catch (e) {
+    console.log('fetch error', e)
+  }
     console.error('News fetch failed:', e)
   }
   return { sections: {} }
